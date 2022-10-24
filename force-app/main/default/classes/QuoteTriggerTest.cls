@@ -21,11 +21,21 @@ public class QuoteTriggerTest{
         insert lstQuote;
     }
 
-    public static testMethod void CreateQuote() {
+   /* public static testMethod void CreateQuote() {
+
+        
+
+    }*/
+    
+    
+    
+    public static testMethod void CreateQuoteTest() {
 
         
 
     }
+    
+    
     
     public static testMethod void UpdateQuote() {
 
