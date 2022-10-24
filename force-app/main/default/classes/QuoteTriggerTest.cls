@@ -35,6 +35,12 @@ public class QuoteTriggerTest{
 
     }
     
+    public static testMethod void CreateQuoteTest1() {
+
+        
+
+    }
+    
     
     
     public static testMethod void UpdateQuote() {
