@@ -35,6 +35,10 @@ public class QuoteTriggerTest{
 
     }
     
+    public static testMethod void CreateQuoteTestNew() {
+
+    }
+    
     
     
     public static testMethod void UpdateQuote() {
@@ -48,5 +52,7 @@ public class QuoteTriggerTest{
         Test.stopTest();
      
     }
+
+    
     
 }
