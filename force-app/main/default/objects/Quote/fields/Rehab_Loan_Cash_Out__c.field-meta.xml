@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rehab_Loan_Cash_Out__c</fullName>
+    <externalId>false</externalId>
+    <formula>Loan_Amount__c - Loan_Balance_Total__c - Total_Fee__c - Repairs_Needed__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Rehab Loan Cash Out</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <type>Currency</type>
+</CustomField>
