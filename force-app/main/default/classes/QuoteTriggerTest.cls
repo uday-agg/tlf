@@ -11,17 +11,6 @@ public class QuoteTriggerTest{
 
         insert objAccount;
         
-        
-       /* Product2 objProduct = new Product2(Name = 'Test product1', family = 'Cafe');
-                                                    
-        insert objProduct;
-       
-        PriceBookEntry objPBE = new PriceBookEntry(UnitPrice = 300, PriceBook2Id = Test.getStandardPricebookId(),
-                                                        Product2Id = objProduct.Id, IsActive = true);
-                                                               
-        
-        insert objPBE;
-        */
         Opportunity objOpp = new Opportunity(Name = 'Test Opp', AccountId = objAccount.Id, StageName = 'Verbal Confirmation', CloseDate = Date.today()+10);
         insert objOpp;
         
@@ -44,13 +33,10 @@ public class QuoteTriggerTest{
         Opportunity Opp = new Opportunity(Id=qu.OpportunityId,SyncedQuoteId=qu.id);
         update opp;
         qu.Name += '_Test';
-       // qu.IsSyncing = true;
         Test.startTest();
             update qu;
         Test.stopTest();
-        
-        
-
+     
     }
     
 }
